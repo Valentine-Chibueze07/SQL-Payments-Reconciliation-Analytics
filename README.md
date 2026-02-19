@@ -19,7 +19,7 @@ Payment automation using stored procedures
 
 All business logic was implemented using T-SQL.
 
-** Business Objectives**
+* Business Objectives
 
 Track payment lifecycle (Pending → Confirmed → Reversed)
 
@@ -33,7 +33,7 @@ Monitor daily cash inflow trends
 
 Automate payment insertion with stored procedure
 
-** Technical Skills Demonstrated**
+* Technical Skills Demonstrated
 
 CRUD operations (INSERT, UPDATE, DELETE)
 
@@ -51,7 +51,7 @@ Stored procedure creation (usp_AddPayment)
 
 Financial reconciliation logic
 
-** Key SQL Highlights**
+* Key SQL Highlights
 ✔ Total Paid vs Outstanding per Order
 SELECT 
     O.OrderNumber,
@@ -108,7 +108,7 @@ BEGIN
     GROUP BY O.NetAmount;
 END;
 
-** Key Insights Generated**
+* Key Insights Generated
 
 Identified high-risk outstanding orders
 
@@ -120,7 +120,7 @@ Flagged delivered-but-unpaid transactions
 
 Built financial automation logic
 
-** Business Impact**
+* Business Impact
 
 This project simulates:
 
