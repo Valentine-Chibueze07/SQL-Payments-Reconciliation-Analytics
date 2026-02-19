@@ -1,5 +1,5 @@
-# SQL-Payments-Reconciliation-Analytics
-** Overview**
+# SQL-Payments-Reconciliation-Analytics\
+* Overview*
 
 This project focuses on financial reconciliation and payment tracking using SQL Server.
 
